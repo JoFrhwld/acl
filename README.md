@@ -1,5 +1,8 @@
 
-# <%= title %>
+# ACL Quarto Format
+
+![Static Badge](https://img.shields.io/badge/status-work_in_progess-red?style=flat)
+
 
 ## Creating a New Article
 
