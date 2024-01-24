@@ -21,6 +21,7 @@ author:
       - Another Affiliation
 abstract: |
   This document is a template demonstrating the Acl format.
+review: false
 keywords: [template, demo]
 bibliography: bibliography.bib  
 ---

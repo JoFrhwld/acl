@@ -14,10 +14,8 @@ $endif$
 \subtitle{$subtitle$}
 $endif$
 \author{$for(authors)$
-  $it.name.literal$\\
-  $for(it.affiliations)$
-    $it.name$\\
-  $endfor$
+  $it.name.literal$\\$if(it.affiliations)$
+  $for(it.affiliations)$$if(it)$$it$\\$endif$$endfor$$endif$
   $sep$ \\\And 
   $endfor$}
 \date{$date$}
