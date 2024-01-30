@@ -1,5 +1,5 @@
 *.pdf
-template.tex
+./template.tex
 /.luarc.json
 .Rproj.user
 .Rproj.user
