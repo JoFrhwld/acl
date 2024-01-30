@@ -1,0 +1,48 @@
+---
+title: Acl Template
+format:
+  acl-pdf:
+    keep-tex: true  
+author:
+  - name: Sarah Malloc
+    affiliation:
+      - name: An Organization
+        department: The Department
+        address: 1 Main St
+        city: Boston
+        country: USA
+        postal-code: 02210-1022
+    orcid: 0000-0000-0000-0000
+    email: sm@example.org
+    url: https://example.org/
+  - name: Eliza Dealloc
+    affiliation:
+      - Another Affiliation
+abstract: |
+  This document is an attempt to convert the 
+  [\*ACL \LaTeX\ template](https://github.com/acl-org/acl-style-files/tree/master/latex)
+  to a Quarto/pandoc template. 
+# other states:
+# - review
+# - preprint
+state: final
+keywords: [template, demo]
+bibliography: bibliography.bib
+#titlebox:
+#  dim: 5cm
+#alt-font: txfonts
+---
+
+# Introduction {#sec-intro}
+
+This is an work-in-progress quarto template for \*ACL papers. So far the following are fairly well implemented:
+
+-   Author blocks
+-   Title blocks
+-   Toggling on and off review status
+
+Items that still need work:
+
+-   Markdown table rendering
+-   More author formats
+-   Lots of other things probably
