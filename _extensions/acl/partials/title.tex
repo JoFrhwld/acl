@@ -13,11 +13,20 @@ $else$
 $endif$
 \subtitle{$subtitle$}
 $endif$
-\author{$for(authors)$
-  $it.name.literal$\\$if(it.affiliations)$
-  $for(it.affiliations)$$if(it)$$it$\\$endif$$endfor$$endif$
-  $sep$ \\\And 
-  $endfor$}
+
+$if(by-author)$
+\author{
+  $for(by-author)$
+    $by-author.name.literal$\\
+    $if(by-author.affiliations)$
+    $for(by-author.affiliations)$
+    $by-author.affiliations.name$\\
+    $endfor$
+    $endif$$sep$\\\And
+  $endfor$
+}
+$endif$
+
 \date{$date$}
 $if(beamer)$
 $if(institute)$
